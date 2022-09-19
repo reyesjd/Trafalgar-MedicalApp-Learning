@@ -1,12 +1,199 @@
 <!DOCTYPE html>
 <html>
+  <!-- Link Template - https://www.figma.com/file/EWmzcVkd7qbP5Nf7iMvuqP/Trafalgar-Landing-Page?node-id=0%3A1 -->
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
+    <title>Trafalgar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <a href="#" class="logo-container">
+        <span class="logo">T</span>
+        <span>Trafalgar</span>
+      </a>
+      <ul class="nav-buttons-container">
+        <li><a class="nav-button" id="nav-button-1" href="#">Home</a></li>
+        <li><a class="nav-button" href="#our-services">Find a doctor</a></li>
+        <li><a class="nav-button" href="#download-apps">Apps</a></li>
+        <li><a class="nav-button" href="#customer-reviews">Testimonials</a></li>
+        <li><a class="nav-button" href="#articles">About us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="banner">
+        <img src="assets/images/dot.svg" class="banner-dot" />
+        <div class="banner-title-container">
+          <h1 class="banner-title">Virtual healthcare for you</h1>
+          <p class="banner-subtitle">
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone
+          </p>
+          <button class="button" id="banner-button">
+            <span>Consult today</span>
+          </button>
+        </div>
+        <img
+          class="banner-image"
+          src="assets/images/Banner_Illustration.svg"
+          alt=""
+        />
+      </section>
+      <section class="our-services" id="our-services">
+        <div class="our-service-title-container">
+          <h1 class="title">Our services</h1>
+          <hr class="separator" />
+          <p class="description">
+            We provide to you the best choiches for you. Adjust it to your
+            health needs and make sure your undergo treatment with our highly
+            qualified doctors you can consult with us which type of service is
+            suitable for your health
+          </p>
+        </div>
+        <div class="our-services-card-container">
+          <div class="our-services-card">
+            <img
+              class="our-services-card-image"
+              src="assets/images/search_doctor.svg"
+              alt=""
+            />
+            <h2 class="our-services-card-title">Search doctor</h2>
+            <p class="our-services-card-description">
+              Choose your doctor from thousands of specialist, general, and
+              trusted hospitals
+            </p>
+          </div>
+          <div class="our-services-card">
+            <img
+              class="our-services-card-image"
+              src="assets/images/bottle.svg"
+              alt=""
+            />
+            <h2 class="our-services-card-title">Online pharmacy</h2>
+            <p class="our-services-card-description">
+              Buy your medicines with our mobile application with a simple
+              delivery system
+            </p>
+          </div>
+          <div class="our-services-card">
+            <img
+              class="our-services-card-image"
+              src="assets/images/consultant.svg"
+              alt=""
+            />
+            <h2 class="our-services-card-title">Consultation</h2>
+            <p class="our-services-card-description">
+              Free consultation with our trusted doctors and get the best
+              recomendations
+            </p>
+          </div>
+          <div class="our-services-card">
+            <img
+              class="our-services-card-image"
+              src="assets/images/details.svg"
+              alt=""
+            />
+            <h2 class="our-services-card-title">Details info</h2>
+            <p class="our-services-card-description">
+              Free consultation with our trusted doctors and get the best
+              recomendations
+            </p>
+          </div>
+          <div class="our-services-card">
+            <img
+              class="our-services-card-image"
+              src="assets/images/healt.svg"
+              alt=""
+            />
+            <h2 class="our-services-card-title">Emergency care</h2>
+            <p class="our-services-card-description">
+              You can get 24/7 urgent care for yourself or your children and
+              your lovely family
+            </p>
+          </div>
+          <div class="our-services-card">
+            <img
+              class="our-services-card-image"
+              src="assets/images/tracking.svg"
+              alt=""
+            />
+            <h2 class="our-services-card-title">Tracking</h2>
+            <p class="our-services-card-description">
+              Track and save your medical history and health data
+            </p>
+          </div>
+        </div>
+        <button class="button"><span>Learn more</span></button>
+      </section>
+      <section class="wrapper" id="leadership">
+        <img class="banner-image" src="assets/images/leadership.svg" alt="" />
+        <div class="leadership-title-container">
+          <h2 class="title">Leading healthcare providers</h2>
+          <hr class="separator" />
+          <p class="left-description">
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone. To us, it’s not just
+            work. We take pride in the solutions we deliver
+          </p>
+          <button class="button"><span>Learn more</span></button>
+        </div>
+      </section>
+      <section class="wrapper" id="download-apps">
+        <div class="leadership-title-container">
+          <h2 class="title">Download our mobile apps</h2>
+          <hr class="separator" />
+          <p class="left-description">
+            Our dedicated patient engagement app and web portal allow you to
+            access information instantaneously (no tedeous form, long calls, or
+            administrative hassle) and securely
+          </p>
+          <button class="button">
+            <span>Download</span><img src="assets/images/download.svg" />
+          </button>
+        </div>
+        <img class="banner-image" src="assets/images/apps.svg" alt="" />
+      </section>
+      <section class="customer-reviews" id="customer-reviews"></section>
+      <section class="articles" id="articles"></section>
+    </main>
+    <footer>
+      <div class="footer-description">
+        <a href="#" class="logo-container" id="footer-logo-a">
+          <span class="logo" id="footer-logo">T</span>
+          <span>Trafalgar</span>
+        </a>
+        <p class="footer-description-text">
+          Trafalgar provides progressive, and affordable healthcare, accessible
+          on mobile and online for everyone
+        </p>
+        <p class="footer-description-text">
+          ©Trafalgar PTY LTD 2020. All rights reserved
+        </p>
+      </div>
+
+      <ul class="footer-link-container">
+        <li class="footer-link-title"><span>Company</span></li>
+        <li>About</li>
+        <li>Testimonials</li>
+        <li>Find a doctor</li>
+        <li>Apps</li>
+      </ul>
+      <ul class="footer-link-container">
+        <li class="footer-link-title"><span>Region</span></li>
+        <li>Indonesia</li>
+        <li>Singapore</li>
+        <li>Hongkong</li>
+        <li>Canada</li>
+      </ul>
+      <ul class="footer-link-container">
+        <li class="footer-link-title"><span>Help</span></li>
+        <li>Help center</li>
+        <li>Contact support</li>
+        <li>Instructions</li>
+        <li>How it works</li>
+      </ul>
+    </footer>
+  </body>
 </html>
